@@ -1,0 +1,47 @@
+/* Define styles for the entire app component */
+:host {
+  display: block;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header styling */
+header {
+  background-color: #007bff;
+  padding: 10px 0;
+  color: white;
+
+  nav {
+    display: flex;
+    justify-content: center;
+    a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+/* Main content area styling */
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: auto;
+
+  p {
+    margin: 0;
+  }
+}
